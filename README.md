@@ -1,9 +1,12 @@
+# Simple macOS Application Injector
 
-**Simple injection of macOS applications**
+## Introduction
+This is a tool for injecting applications on macOS systems. It supports a variety of applications and can perform the injection for different CPU architectures (arm64 and x86_64).
 
 ## Supported Applications
+The table below lists the applications that are currently supported:
 
-| injectFile | supportVersion | arch |
+| App | Version | Arch |
 | --- | --- | --- |
 | Focus | ALL | [arm64, x86_64] |
 | MindMac | ALL | [arm64, x86_64] |
@@ -46,18 +49,15 @@
 | ServerCat | 1.12 | [arm64] |
 | MDClock | ALL | [arm64, x86_64] |
 
-## Acknowledgements
-
-The DYLIB reference is based on the work of [qiuchenly](https://github.com/qiuchenly) and [marlkiller](https://github.com/marlkiller).
-
 ## Usage
-
 1. Download the application you need to inject.
 2. Select the application.
-3. Inject the application.
+3. Perform the injection.
 
 ## Preview
-<img width="1050" alt="image" src="https://github.com/user-attachments/assets/b7cd88b6-e59a-44c1-8ab4-20a4968e8480">
-<img width="1050" alt="image" src="https://github.com/user-attachments/assets/829655c1-777f-4c21-8c96-456e3975b4e1">
-<img width="1050" alt="image" src="https://github.com/user-attachments/assets/24d5ba71-060d-48bd-b15f-f8b14ff6829f">
+![Application Injection Interface](https://github.com/user-attachments/assets/b7cd88b6-e59a-44c1-8ab4-20a4968e8480)
+![Application Injection Process](https://github.com/user-attachments/assets/829655c1-777f-4c21-8c96-456e3975b4e1)
+![Application Injection Complete](https://github.com/user-attachments/assets/24d5ba71-060d-48bd-b15f-f8b14ff6829f)
 
+## Acknowledgements
+The DYLIB reference is based on the work of [qiuchenly](https://github.com/qiuchenly) and [marlkiller](https://github.com/marlkiller).
