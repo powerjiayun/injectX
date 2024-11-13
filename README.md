@@ -7,7 +7,7 @@ This is a tool for injecting applications on macOS systems. It supports a variet
 The table below lists the applications that are currently supported:
 
 | App | Version | Arch |
-| --- | --- | --- |
+| :---: | :---: | :---: |
 | Focus | ALL | [arm64, x86_64] |
 | MindMac | ALL | [arm64, x86_64] |
 | Mp3tag | 1.8.27 | [arm64] |
@@ -48,6 +48,7 @@ The table below lists the applications that are currently supported:
 | One Switch | ALL | [arm64, x86_64] |
 | ServerCat | 1.12 | [arm64] |
 | MDClock | ALL | [arm64, x86_64] |
+| Bear | ALL | [arm64, x86_64] |
 
 ## Usage
 1. Download the application you need to inject.
