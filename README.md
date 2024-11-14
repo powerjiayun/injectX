@@ -49,6 +49,7 @@ The table below lists the applications that are currently supported:
 | ServerCat | 1.12 | [arm64] |
 | MDClock | ALL | [arm64, x86_64] |
 | Bear | ALL | [arm64, x86_64] |
+| Final Cut Pro Trial | ALL | [arm64, x86_64] |
 
 ## Usage
 1. Download the application you need to inject.
