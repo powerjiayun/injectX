@@ -61,6 +61,20 @@
 		<key>source</key>
 		<string>MAS</string>
 	</dict>
+	<key>com.apple.FinalCutTrial</key>
+	<dict>
+		<key>arch</key>
+		<array>
+			<string>arm64</string>
+			<string>x86_64</string>
+		</array>
+		<key>bundleShortVersion</key>
+		<string>ALL</string>
+		<key>bundleVersion</key>
+		<string>ALL</string>
+		<key>injectFile</key>
+		<string>Final Cut Pro Trial</string>
+	</dict>
 	<key>com.araeliumgroup.querious</key>
 	<dict>
 		<key>arch</key>
@@ -339,6 +353,21 @@
 		<string>ALL</string>
 		<key>injectFile</key>
 		<string>Flacbox</string>
+		<key>source</key>
+		<string>MAS</string>
+	</dict>
+	<key>com.luoxiao.TextScan</key>
+	<dict>
+		<key>arch</key>
+		<array>
+			<string>arm64</string>
+		</array>
+		<key>bundleShortVersion</key>
+		<string>1.7.8</string>
+		<key>bundleVersion</key>
+		<string>20241010</string>
+		<key>injectFile</key>
+		<string>Text Scanner</string>
 		<key>source</key>
 		<string>MAS</string>
 	</dict>
