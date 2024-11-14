@@ -25,9 +25,21 @@ struct AppInfoRowView: View {
                     )
                 
                 VStack(alignment: .leading, spacing: 4) {
-                    Text(app.name)
-                        .font(.title3)
-                        .lineLimit(1)
+                    HStack(spacing: 4) {  // 新添加的 HStack
+                        Text(app.name)
+                            .font(.title3)
+                            .lineLimit(1)
+                        
+                        
+                        if let url = URL(string: app.path) {
+                                let injectHelper = InjectHelper()
+                                if injectHelper.injected(app.bundleIdentifier, url) {
+                                    Image(systemName: "checkmark.circle.fill")
+                                        .foregroundColor(.green)
+                                        .font(.system(size: 12))
+                                }
+                            }
+                    }
                     
                     HStack {
                         Text(app.bundleShortVersion)

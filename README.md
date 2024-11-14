@@ -50,6 +50,9 @@ The table below lists the applications that are currently supported:
 | MDClock | ALL | [arm64, x86_64] |
 | Bear | ALL | [arm64, x86_64] |
 | Final Cut Pro Trial | ALL | [arm64, x86_64] |
+| MarginNote 4 | ALL | [arm64, x86_64] |
+| BoltAI | 1.27.2 | [arm64] |
+
 
 ## Usage
 1. Download the application you need to inject.

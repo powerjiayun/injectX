@@ -57,8 +57,11 @@ struct AppDetailView: View {
                 
                 // Status Badges section
                 HStack(spacing: 8) {
-                    MacStatusBadge(title: "Can Inject", icon: "bolt.circle.fill", isActive: app.canInject)
-                    MacStatusBadge(title: "Injected", icon: "checkmark.circle.fill", isActive: injected)
+                    MacStatusBadge(title: "Can Inject", icon: app.canInject ? "checkmark.circle.fill" : "xmark.circle.fill", isActive: app.canInject)
+                    MacStatusBadge(title: "Injected", icon: injected ? "checkmark.circle.fill" : "xmark.circle.fill", isActive: injected)
+                    
+                    
+                    
                     
                     if app.source != "" {
                         MacStatusBadge(title: LocalizedStringKey(app.source), icon: "cart", isActive: true)
