@@ -52,6 +52,8 @@ The table below lists the applications that are currently supported:
 | Final Cut Pro Trial | ALL | [arm64, x86_64] |
 | MarginNote 4 | ALL | [arm64, x86_64] |
 | BoltAI | 1.27.2 | [arm64] |
+| iShot | ALL | [arm64, x86_64] |
+| iBar | ALL | [arm64, x86_64] |
 
 
 ## Usage
