@@ -667,6 +667,19 @@ EA7E-8888888
 		<key>source</key>
 		<string>MAS</string>
 	</dict>
+	<key>iRightMouse</key>
+	<dict>
+		<key>arch</key>
+		<array>
+			<string>arm64</string>
+		</array>
+		<key>bundleShortVersion</key>
+		<string>ALL</string>
+		<key>bundleVersion</key>
+		<string>ALL</string>
+		<key>injectFile</key>
+		<string>iRightMouse</string>
+	</dict>
 	<key>li.zihua.medis2</key>
 	<dict>
 		<key>arch</key>
