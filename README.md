@@ -55,6 +55,7 @@ The table below lists the applications that are currently supported:
 | iShot | ALL | [arm64, x86_64] |
 | iBar | ALL | [arm64, x86_64] |
 | Alcove | ALL | [arm64, x86_64] |
+| TwinklingCard | 2.15.4 | [arm64] |
 
 
 ## Usage
