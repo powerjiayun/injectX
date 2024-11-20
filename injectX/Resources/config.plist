@@ -348,6 +348,22 @@
 		<key>source</key>
 		<string>MAS</string>
 	</dict>
+	<key>com.henrikruscon.Alcove</key>
+	<dict>
+		<key>arch</key>
+		<array>
+			<string>arm64</string>
+			<string>x86_64</string>
+		</array>
+		<key>bundleShortVersion</key>
+		<string>ALL</string>
+		<key>bundleVersion</key>
+		<string>ALL</string>
+		<key>injectFile</key>
+		<string>Alcove</string>
+		<key>license</key>
+		<string>88888888-8888-8888-8888-888888888888</string>
+	</dict>
 	<key>com.heweather.weatherapp</key>
 	<dict>
 		<key>arch</key>
@@ -385,9 +401,9 @@
 			<string>x86_64</string>
 		</array>
 		<key>bundleShortVersion</key>
-		<string>1.3.6</string>
+		<string>1.3.7</string>
 		<key>bundleVersion</key>
-		<string>36</string>
+		<string>37</string>
 		<key>injectFile</key>
 		<string>APTV</string>
 		<key>source</key>

@@ -27,7 +27,7 @@ The table below lists the applications that are currently supported:
 | SQLPro Studio | ALL | [arm64, x86_64] |
 | QWeather | 3.5.16 | [arm64] |
 | HoudahSpot | ALL | [arm64, x86_64] |
-| APTV | 1.3.6 | [arm64, x86_64] |
+| APTV | 1.3.7 | [arm64, x86_64] |
 | Flacbox | ALL | [arm64, x86_64] |
 | MediaCenter | ALL | [arm64, x86_64] |
 | PotPlayerX | ALL | [arm64, x86_64] |
@@ -54,6 +54,7 @@ The table below lists the applications that are currently supported:
 | BoltAI | 1.27.2 | [arm64] |
 | iShot | ALL | [arm64, x86_64] |
 | iBar | ALL | [arm64, x86_64] |
+| Alcove | ALL | [arm64, x86_64] |
 
 
 ## Usage
