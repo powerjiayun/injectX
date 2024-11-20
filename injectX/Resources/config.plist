@@ -425,6 +425,19 @@
 		<key>source</key>
 		<string>MAS</string>
 	</dict>
+	<key>com.lm.william.TwinklingCard</key>
+	<dict>
+		<key>arch</key>
+		<array>
+			<string>arm64</string>
+		</array>
+		<key>bundleShortVersion</key>
+		<string>2.15.4</string>
+		<key>bundleVersion</key>
+		<string>1297</string>
+		<key>injectFile</key>
+		<string>TwinklingCard</string>
+	</dict>
 	<key>com.luoxiao.TextScan</key>
 	<dict>
 		<key>arch</key>
