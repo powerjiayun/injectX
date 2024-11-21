@@ -7,11 +7,11 @@
     <a href="README.md">English</a> | <a href="README_zh-CN.md">简体中文</a>
     <br />
     <br />
-    <b>Download for </b>
-    <a href="https://github.com/inject-X/injectX/archive/refs/heads/main.zip">Source Code</a>
+    <b>下载 </b>
+    <a href="https://github.com/inject-X/injectX/archive/refs/heads/main.zip">源码</a>
     <br />
-     <b>Supported Application List</b>
-    <a href="AppList.md">App List</a>
+     <b>支持应用</b>
+    <a href="AppList.md">应用列表</a>
     <br />
     <br />
     <img src="https://img.shields.io/github/stars/inject-X/injectX" alt="GitHub Stars" />
@@ -24,37 +24,36 @@
   </p>
 </p>
 
+## 💻 应用简介
 
-## 💻 Application Introduction
+InjectX 是一款为 macOS 系统设计的应用程序注入工具，支持多种 CPU 架构（arm64 和 x86_64）。
 
-InjectX is an application injection tool designed for macOS, supporting multiple CPU architectures (arm64 and x86_64).
+## ✨ 主要特性
 
-## ✨ Key Features
+- 🚀 简单易用的用户体验
+- 🔧 精美优雅的界面设计
+- 💡 持续更新优化
 
-- 🚀 Simple and user-friendly experience
-- 🔧 Beautiful and elegant interface design
-- 💡 Continuous updates and optimization
+## 🛠 系统要求
 
-## 🛠 System Requirements
+- macOS 13.0 (Ventura) 或更高版本
 
-- macOS 13.0 (Ventura) or higher
+## 📋 快速使用
 
-## 📋 Quick Usage
+1. 打开 InjectX 应用
+2. 验证注入支持
+3. 执行应用程序注入
+4. 启动已注入的应用
 
-1. Open the InjectX application
-2. Verify injection support
-3. Execute application injection
-4. Launch the injected application
-
-## 🖼 Application Screenshots
+## 🖼 应用截图
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/b7cd88b6-e59a-44c1-8ab4-20a4968e8480" alt="应用程序截图 1" width="800">
-  <img src="https://github.com/user-attachments/assets/829655c1-777f-4c21-8c96-456e3975b4e1" alt="应用程序截图 2" width="800">
-  <img src="https://github.com/user-attachments/assets/24d5ba71-060d-48bd-b15f-f8b14ff6829f" alt="应用程序截图 3" width="800">
+  <img src="https://github.com/user-attachments/assets/b7cd88b6-e59a-44c1-8ab4-20a4968e8480" alt="App Screenshot 1" width="800">
+  <img src="https://github.com/user-attachments/assets/829655c1-777f-4c21-8c96-456e3975b4e1" alt="App Screenshot 2" width="800">
+  <img src="https://github.com/user-attachments/assets/24d5ba71-060d-48bd-b15f-f8b14ff6829f" alt="App Screenshot 3" width="800">
 </div>
 
-## 🙏 Acknowledgements
+## 🙏 致谢
 
 Thanks to the following projects:
 - [Dobby](https://github.com/jmpews/Dobby)
@@ -62,12 +61,12 @@ Thanks to the following projects:
 - [qiuchenly](https://github.com/qiuchenly)
 - [marlkiller](https://github.com/marlkiller)
 
-## 📜 License
+## 📜 许可
 
-See [LICENSE.md](LICENSE)
+详见 [LICENSE.md](LICENSE)
 
 ---
 
 <div align="center">
-  <sub>💖 Found it helpful? Please give us a star! ⭐</sub>
+  <sub>💖 觉得有帮助？请给我们一个星标！⭐</sub>
 </div>
