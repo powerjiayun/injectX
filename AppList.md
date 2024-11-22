@@ -49,3 +49,4 @@
 | iBar | `ALL` | `arm64`, `x86_64` |
 | Alcove | `ALL` | `arm64`, `x86_64` |
 | TwinklingCard | `2.15.4` | `arm64`, `x86_64` |
+| AlDente |  `ALL` | `arm64`, `x86_64` |
