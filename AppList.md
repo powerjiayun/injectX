@@ -339,6 +339,4 @@ EA7E-8888888
                     licenseCode: Ke'd by InjectX-Team
                 </td>
             </tr>
-
-        </tbody>
     </table>
