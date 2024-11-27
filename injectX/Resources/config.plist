@@ -43,8 +43,6 @@
 		<string>ALL</string>
 		<key>injectFile</key>
 		<string>MindMac</string>
-		<key>license</key>
-		<string>Ke'd by InjectX-Team</string>
 	</dict>
 	<key>app.mp3tag.Mp3tag</key>
 	<dict>
@@ -127,12 +125,12 @@
 		<string>ALL</string>
 		<key>fixHelper</key>
 		<string>true</string>
-		<key>helperPath</key>
-		<string>/Contents/Library/LaunchServices/com.apphousekitchen.aldente-pro.helper</string>
 		<key>injectFile</key>
 		<string>AlDente</string>
-		<key>license</key>
-		<string>Ke'd by InjectX-Team</string>
+		<key>launchServices</key>
+		<array>
+			<string>com.apphousekitchen.aldente-pro.helper</string>
+		</array>
 	</dict>
 	<key>com.apple.FinalCutTrial</key>
 	<dict>
@@ -195,10 +193,12 @@
 		</array>
 		<key>fixHelper</key>
 		<string>true</string>
-		<key>helperPath</key>
-		<string>/Contents/Library/LaunchServices/com.binarynights.ForkLiftHelper</string>
 		<key>injectFile</key>
 		<string>ForkLift</string>
+		<key>launchServices</key>
+		<array>
+			<string>com.binarynights.ForkLiftHelper</string>
+		</array>
 	</dict>
 	<key>com.bohemiancoding.sketch3.appstore</key>
 	<dict>
@@ -237,6 +237,20 @@
 		<key>source</key>
 		<string>MAS</string>
 	</dict>
+	<key>com.charliemonroe.Downie-4</key>
+	<dict>
+		<key>arch</key>
+		<array>
+			<string>arm64</string>
+			<string>x86_64</string>
+		</array>
+		<key>bundleShortVersion</key>
+		<string>ALL</string>
+		<key>bundleVersion</key>
+		<string>ALL</string>
+		<key>injectFile</key>
+		<string>Downie 4</string>
+	</dict>
 	<key>com.chitaner.Longshot</key>
 	<dict>
 		<key>arch</key>
@@ -269,6 +283,30 @@
 		<key>source</key>
 		<string>MAS</string>
 	</dict>
+	<key>com.cocoatech.PathFinder</key>
+	<dict>
+		<key>arch</key>
+		<array>
+			<string>arm64</string>
+			<string>x86_64</string>
+		</array>
+		<key>bundleShortVersion</key>
+		<string>ALL</string>
+		<key>bundleVersion</key>
+		<string>ALL</string>
+		<key>fixHelper</key>
+		<string>true</string>
+		<key>injectFile</key>
+		<string>Path Finder</string>
+		<key>injectHelper</key>
+		<string>true</string>
+		<key>launchServices</key>
+		<array>
+			<string>com.cocoatech.PathFinder.SMFHelper7</string>
+			<string>com.cocoatech.PathFinder.PrivilegedHelper</string>
+			<string>com.cocoatech.HexFiend.PrivilegedHelper</string>
+		</array>
+	</dict>
 	<key>com.crystalidea.macsfancontrol</key>
 	<dict>
 		<key>arch</key>
@@ -281,12 +319,14 @@
 		<string>ALL</string>
 		<key>fixHelper</key>
 		<string>true</string>
-		<key>helperPath</key>
-		<string>/Contents/Library/LaunchServices/com.crystalidea.macsfancontrol.smcwrite</string>
 		<key>injectFile</key>
 		<string>Macs Fan Control</string>
 		<key>injectHelper</key>
 		<string>false</string>
+		<key>launchServices</key>
+		<array>
+			<string>com.crystalidea.macsfancontrol.smcwrite</string>
+		</array>
 	</dict>
 	<key>com.culturedcode.ThingsMac</key>
 	<dict>
@@ -315,12 +355,14 @@
 		<string>ALL</string>
 		<key>fixHelper</key>
 		<string>true</string>
-		<key>helperPath</key>
-		<string>/Contents/Library/LaunchServices/com.drbuho.BuhoCleaner.PrivilegedHelperTool</string>
 		<key>injectFile</key>
 		<string>BuhoCleaner</string>
 		<key>injectHelper</key>
 		<string>true</string>
+		<key>launchServices</key>
+		<array>
+			<string>com.drbuho.BuhoCleaner.PrivilegedHelperTool</string>
+		</array>
 	</dict>
 	<key>com.eusoft.eudic</key>
 	<dict>
@@ -381,8 +423,6 @@
 		<string>ALL</string>
 		<key>injectFile</key>
 		<string>Alcove</string>
-		<key>license</key>
-		<string>88888888-8888-8888-8888-888888888888</string>
 	</dict>
 	<key>com.heweather.weatherapp</key>
 	<dict>
@@ -421,9 +461,9 @@
 			<string>x86_64</string>
 		</array>
 		<key>bundleShortVersion</key>
-		<string>1.3.7</string>
+		<string>1.3.8</string>
 		<key>bundleVersion</key>
-		<string>37</string>
+		<string>38</string>
 		<key>injectFile</key>
 		<string>APTV</string>
 		<key>source</key>
@@ -453,9 +493,9 @@
 			<string>x86_64</string>
 		</array>
 		<key>bundleShortVersion</key>
-		<string>2.15.4</string>
+		<string>ALL</string>
 		<key>bundleVersion</key>
-		<string>1297</string>
+		<string>ALL</string>
 		<key>injectFile</key>
 		<string>TwinklingCard</string>
 	</dict>
@@ -609,20 +649,6 @@
 		<string>ALL</string>
 		<key>injectFile</key>
 		<string>sublime_text</string>
-		<key>license</key>
-		<string>----- BEGIN LICENSE -----
-InjectX-Team
-Unlimited User License
-EA7E-8888888
-88888888888888888888888888888888
-88888888888888888888888888888888
-88888888888888888888888888888888
-88888888888888888888888888888888
-88888888888888888888888888888888
-88888888888888888888888888888888
-88888888888888888888888888888888
-88888888888888888888888888888888
------- END LICENSE ------</string>
 	</dict>
 	<key>com.ulyssesapp.mac</key>
 	<dict>
@@ -668,8 +694,6 @@ EA7E-8888888
 		<string>ALL</string>
 		<key>injectFile</key>
 		<string>AnyDrop</string>
-		<key>license</key>
-		<string>Ke'd by InjectX-Team</string>
 	</dict>
 	<key>com.zeroonetwenty.BlueHarvest5</key>
 	<dict>
@@ -791,8 +815,6 @@ EA7E-8888888
 		<string>ALL</string>
 		<key>injectFile</key>
 		<string>One Switch</string>
-		<key>license</key>
-		<string>Ke'd by InjectX-Team</string>
 	</dict>
 	<key>tech.baye.servercat</key>
 	<dict>

@@ -31,16 +31,6 @@
         }
       }
     },
-    "App injection successful." : {
-      "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "应用程序注入成功"
-          }
-        }
-      }
-    },
     "Authentication Failed" : {
       "localizations" : {
         "zh-Hans" : {
@@ -121,16 +111,6 @@
         }
       }
     },
-    "Copy License" : {
-      "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "复制许可证"
-          }
-        }
-      }
-    },
     "Copy Logs" : {
       "localizations" : {
         "zh-Hans" : {
@@ -191,22 +171,22 @@
         }
       }
     },
+    "Injection successful.See GitHub for licensing information." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "注入成功。有关许可信息，请参阅GitHub。"
+          }
+        }
+      }
+    },
     "invasive Mode" : {
       "localizations" : {
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "入侵模式"
-          }
-        }
-      }
-    },
-    "License has been copied. Please open the app to use." : {
-      "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "许可证已复制。请打开要使用的应用程序。"
           }
         }
       }

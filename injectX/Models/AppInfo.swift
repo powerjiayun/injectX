@@ -19,5 +19,5 @@ struct AppInfo: Identifiable {
     let supportVersion: String
     let supportArch: [String]
     let source: String
-    let license: String
+//    let license: String
 }

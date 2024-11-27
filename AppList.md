@@ -1,52 +1,344 @@
-| App | Version | Arch |
-|:--------:|:--------:|:------------:|
-| Focus | `ALL` | `arm64` / ``x86_64`` |
-| Focus | `ALL` | `arm64`, `x86_64` |
-| MindMac | `ALL` | `arm64`, `x86_64` |
-| Mp3tag | `1.8.27` | `arm64` |
-| Sleep Control Center | `ALL` | `arm64`, `x86_64` |
-| Querious | `ALL` | `arm64`, `x86_64` |
-| Tikey | `ALL` | `arm64`, `x86_64` |
-| ForkLift | `ALL` | `arm64`, `x86_64` |
-| Sketch | `ALL` | `arm64`, `x86_64` |
-| PDF Reader Pro | `ALL` | `arm64`, `x86_64` |
-| Longshot | `ALL` | `arm64`, `x86_64` |
-| Picview | `ALL` | `arm64`, `x86_64` |
-| Macs Fan Control | `ALL` | `arm64` |
-| Things3 | `ALL` | `arm64`, `x86_64` |
-| BuhoCleaner | `ALL` | `arm64`, `x86_64` |
-| Eudic | `ALL` | `arm64`, `x86_64` |
-| Infuse | `ALL` | `arm64`, `x86_64` |
-| SQLPro Studio | `ALL` | `arm64`, `x86_64` |
-| QWeather | `3.5.16` | `arm64` |
-| HoudahSpot | `ALL` | `arm64`, `x86_64` |
-| APTV | `1.3.7` | `arm64`, `x86_64` |
-| Flacbox | `ALL` | `arm64`, `x86_64` |
-| MediaCenter | `ALL` | `arm64`, `x86_64` |
-| PotPlayerX | `ALL` | `arm64`, `x86_64` |
-| SimpleMind | `ALL` | `arm64`, `x86_64` |
-| VideoConverterX | `ALL` | `arm64`, `x86_64` |
-| OneW`all` | `ALL` | `arm64`, `x86_64` |
-| PastePal | `ALL` | `arm64`, `x86_64` |
-| Transmit | `ALL` | `arm64`, `x86_64` |
-| sublime_text | `ALL` | `arm64`, `x86_64` |
-| UlyssesMac | `ALL` | `arm64`, `x86_64` |
-| Paste | `ALL` | `arm64` |
-| AnyDrop | `ALL` | `arm64`, `x86_64` |
-| BlueHarvest | `ALL` | `arm64`, `x86_64` |
-| Xnip | `ALL` | `arm64`, `x86_64` |
-| Flow | `ALL` | `arm64`, `x86_64` |
-| Medis | `ALL` | `arm64`, `x86_64` |
-| filezilla | `3.68.1` | `arm64`, `x86_64` |
-| One Switch | `ALL` | `arm64`, `x86_64` |
-| ServerCat | `1.12` | `arm64` |
-| MDClock | `ALL` | `arm64`, `x86_64` |
-| Bear | `ALL` | `arm64`, `x86_64` |
-| Final Cut Pro Trial | `ALL` | `arm64`, `x86_64` |
-| MarginNote 4 | `ALL` | `arm64`, `x86_64` |
-| BoltAI | `1.27.2` | `arm64` |
-| iShot | `ALL` | `arm64`, `x86_64` |
-| iBar | `ALL` | `arm64`, `x86_64` |
-| Alcove | `ALL` | `arm64`, `x86_64` |
-| TwinklingCard | `2.15.4` | `arm64`, `x86_64` |
-| AlDente |  `ALL` | `arm64`, `x86_64` |
+<table>
+        <thead>
+            <tr>
+                <th>App</th>
+                <th>Version</th>
+                <th>Architecture</th>
+                <th>License Information</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Focus</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>MindMac</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>
+                    licenseEmail: injectxteam@gmail.com<br>
+                    licenseCode: Ke'd by InjectX-Team
+                </td>
+            </tr>
+            <tr>
+                <td>Mp3tag</td>
+                <td>1.8.27</td>
+                <td>arm64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Sleep Control Center</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Querious</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Tikey</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>ForkLift</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Sketch</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>PDF Reader Pro</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Longshot</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Picview</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Macs Fan Control</td>
+                <td>ALL</td>
+                <td>arm64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Things3</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>BuhoCleaner</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Eudic</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Infuse</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>SQLPro Studio</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>QWeather</td>
+                <td>3.5.16</td>
+                <td>arm64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>HoudahSpot</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>APTV</td>
+                <td>1.3.7</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Flacbox</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>MediaCenter</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>PotPlayerX</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>SimpleMind</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>VideoConverterX</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>OneWall</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>PastePal</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Transmit</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Sublime Text</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>
+                    <pre>----- BEGIN LICENSE -----
+InjectX-Team
+Unlimited User License
+EA7E-8888888
+88888888888888888888888888888888
+88888888888888888888888888888888
+88888888888888888888888888888888
+88888888888888888888888888888888
+88888888888888888888888888888888
+88888888888888888888888888888888
+88888888888888888888888888888888
+88888888888888888888888888888888
+------ END LICENSE ------</pre>
+                </td>
+            </tr>
+            <tr>
+                <td>UlyssesMac</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Paste</td>
+                <td>ALL</td>
+                <td>arm64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>AnyDrop</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>
+                   licenseEmail: injectxteam@gmail.com<br>
+                   licenseCode: Ke'd by InjectX-Team
+                </td>
+            </tr>
+            <tr>
+                <td>BlueHarvest</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Xnip</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Flow</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Medis</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>FileZilla</td>
+                <td>3.68.1</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>One Switch</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>
+                    licenseEmail: injectxteam@gmail.com<br>
+                    licenseCode: Ke'd by InjectX-Team
+                </td>
+            </tr>
+            <tr>
+                <td>ServerCat</td>
+                <td>1.12</td>
+                <td>arm64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>MDClock</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Bear</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Final Cut Pro Trial</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>MarginNote 4</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>BoltAI</td>
+                <td>1.27.2</td>
+                <td>arm64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>iShot</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>iBar</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Alcove</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>
+                    88888888-8888-8888-8888-888888888888
+                </td>
+            </tr>
+            <tr>
+                <td>TwinklingCard</td>
+                <td>2.15.4</td>
+                <td>arm64, x86_64</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>AlDente</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>
+                    licenseEmail: injectxteam@gmail.com<br>
+                    licenseCode: Ke'd by InjectX-Team
+                </td>
+            </tr>
+            <tr>
+                <td>Path Finder</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>
+                    licenseEmail: injectxteam@gmail.com<br>
+                    licenseCode: Ke'd by InjectX-Team
+                </td>
+            </tr>
+
+        </tbody>
+    </table>

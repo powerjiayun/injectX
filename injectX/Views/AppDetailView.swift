@@ -95,6 +95,32 @@ struct AppDetailView: View {
                     LazyVGrid(columns: [
                         GridItem(.adaptive(minimum: 120, maximum: 130), spacing: 12),
                     ], spacing: 12) {
+                        
+                        // Inject Button
+                            ActionButton(
+                                title: "Inject",
+                                icon: "bolt.circle",
+                                isPrimary: true,
+                                isDisabled: !app.canInject,
+                                action: {
+                                    if hasRootPassword {
+                                        let injectHelper = InjectHelper()
+                                        injectHelper.inject(app, isDebugModeEnabled)
+                                        if let url = URL(string: app.path) {
+                                            DispatchQueue.main.async {
+                                                injected = injectHelper.injected(app.bundleIdentifier, url)
+                                                    // 更新全局状态
+                                                    InjectionStateManager.shared.setInjected(
+                                                        bundleId: app.bundleIdentifier,
+                                                        injected: injected
+                                                    )
+                                            }
+                                        }
+                                    } else {
+                                        logManager.addLog("Please enter the password first for injection use!", type: .warning)
+                                    }
+                                }
+                            )
                         // Run App Button
                         ActionButton(
                             title: "Run App",
@@ -121,39 +147,20 @@ struct AppDetailView: View {
                                 }
                             )
                         
-                        // Inject Button
-                            ActionButton(
-                                title: "Inject",
-                                icon: "bolt.circle",
-                                isPrimary: true,
-                                isDisabled: !app.canInject,
-                                action: {
-                                    if hasRootPassword {
-                                        let injectHelper = InjectHelper()
-                                        injectHelper.inject(app, isDebugModeEnabled)
-                                        if let url = URL(string: app.path) {
-                                            DispatchQueue.main.async {
-                                                injected = injectHelper.injected(app.bundleIdentifier, url)
-                                            }
-                                        }
-                                    } else {
-                                        logManager.addLog("Please enter the password first for injection use!", type: .warning)
-                                    }
-                                }
-                            )
+                       
                         
                         // Copy License Button (if available)
-                            if !app.license.isEmpty {
-                                ActionButton(
-                                    title: "Copy License",
-                                    icon: "doc.on.clipboard",
-                                    isDisabled: !injected,
-                                    action: {
-                                        NSPasteboard.general.clearContents()
-                                        NSPasteboard.general.setString(app.license, forType: .string)
-                                    }
-                                )
-                            }
+//                            if !app.license.isEmpty {
+//                                ActionButton(
+//                                    title: "Copy License",
+//                                    icon: "doc.on.clipboard",
+//                                    isDisabled: !injected,
+//                                    action: {
+//                                        NSPasteboard.general.clearContents()
+//                                        NSPasteboard.general.setString(app.license, forType: .string)
+//                                    }
+//                                )
+//                            }
                     }
                 }
                 .padding(14)

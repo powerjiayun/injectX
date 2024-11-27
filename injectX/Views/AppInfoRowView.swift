@@ -9,6 +9,7 @@ import SwiftUI
 struct AppInfoRowView: View {
     let app: AppInfo
     @State private var icon: NSImage?
+    @StateObject private var injectionManager = InjectionStateManager.shared
     
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
@@ -31,14 +32,11 @@ struct AppInfoRowView: View {
                             .lineLimit(1)
                         
                         
-                        if let url = URL(string: app.path) {
-                                let injectHelper = InjectHelper()
-                                if injectHelper.injected(app.bundleIdentifier, url) {
-                                    Image(systemName: "checkmark.circle.fill")
-                                        .foregroundColor(.green)
-                                        .font(.system(size: 12))
-                                }
-                            }
+                        if injectionManager.injectedApps[app.bundleIdentifier] == true {
+                                            Image(systemName: "checkmark.circle.fill")
+                                                .foregroundColor(.green)
+                                                .font(.system(size: 12))
+                                        }
                     }
                     
                     HStack {

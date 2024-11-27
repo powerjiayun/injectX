@@ -250,21 +250,26 @@ class InjectHelper {
             _ = shell("\(helperTool) -i \"\(app.path)/Contents/info.plist\"", isDebug)
             logManager.addLog("Info.plist fixed successfully.", type: .success)
             
-            if let helperPath = appConfig["helperPath"] as? String {
-                _ = shell("\(helperTool) -h \"\(app.path)/\(helperPath)\"", isDebug)
-                logManager.addLog("Helper tool fixed successfully.", type: .success)
-                
-                if let injectHelper = (appConfig["injectHelper"] as? String).flatMap({ Bool($0) }), injectHelper {
-                    _ = shell("""
-                        sudo \(optool) install -c load -p "\(app.path)/Contents/MacOS/injectX.dylib" -t "\(app.path)/\(helperPath)"
-                    """, isDebug)
-                    logManager.addLog("Helper tool injected successfully.", type: .success)
+            if let launchServices = appConfig["launchServices"] as? [String] {
+                for launchService in launchServices {
+                    // Construct the full path by combining app.path with the launch service path
+                    let fullLaunchServicePath = "\(app.path)/Contents/Library/LaunchServices/\(launchService)"
+                    
+                    _ = shell("\(helperTool) -h \"\(fullLaunchServicePath)\"", isDebug)
+                    logManager.addLog("Helper tool fixed successfully for path: \(launchService)", type: .success)
+                    
+                    if let injectHelper = (appConfig["injectHelper"] as? String).flatMap({ Bool($0) }), injectHelper {
+                        _ = shell("""
+                            sudo \(optool) install -c load -p "\(app.path)/Contents/MacOS/injectX.dylib" -t "\(fullLaunchServicePath)"
+                        """, isDebug)
+                        logManager.addLog("Helper tool injected successfully for path: \(launchService)", type: .success)
+                    }
+                    
+                    _ = shell("sudo codesign -f -s - --timestamp=none --all-architectures --deep \"\(fullLaunchServicePath)\"", isDebug)
+                    logManager.addLog("Helper tool codesigned successfully for path: \(launchService)", type: .success)
                 }
-                
-                _ = shell("sudo codesign -f -s - --timestamp=none --all-architectures --deep \"\(app.path)/\(helperPath)\"", isDebug)
-                logManager.addLog("Helper tool codesigned successfully.", type: .success)
             } else {
-                logManager.addLog("helperPath not found in app configuration.", type: .error)
+                logManager.addLog("launchServices not found or not an array in app configuration.", type: .error)
             }
         }
         
@@ -287,15 +292,7 @@ class InjectHelper {
         
         let alert = NSAlert()
         alert.messageText = app.name
-        if app.license.isEmpty {
-            alert.informativeText = NSLocalizedString("App injection successful.", comment: "")
-        } else {
-            let pasteboard = NSPasteboard.general
-            pasteboard.clearContents()
-            pasteboard.setString(app.license, forType: .string)
-            
-            alert.informativeText = NSLocalizedString("License has been copied. Please open the app to use.", comment: "")
-        }
+        alert.informativeText = NSLocalizedString("Injection successful.See GitHub for licensing information.", comment: "")
         alert.runModal()
         
 

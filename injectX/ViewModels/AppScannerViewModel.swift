@@ -76,22 +76,27 @@ class AppScannerViewModel: ObservableObject {
         var supportVersion: String?
         var supportArch: [String]?
         var source: String?
-        var license: String?
+//        var license: String?
         
         let injectHelper = InjectHelper()
         
         if let config = injectHelper.getConfig() {
             if let appConfig = config[bundleIdentifier] {
                 canInject = injectHelper.canInject(bundleIdentifier, bundleShortVersion, bundleVersion)
-//                injected = injectHelper.injected(bundleIdentifier: bundleIdentifier, from: url)
                 supportVersion = ((appConfig["bundleShortVersion"] as? String) ?? "") + " (" + ((appConfig["bundleVersion"] as? String) ?? "") + ")"
                 supportArch = appConfig["arch"] as? [String]
                 source = appConfig["source"] as? String
-                license = appConfig["license"] as? String
+//                license = appConfig["license"] as? String
             } else {
                 return nil
             }
         }
+        
+        let injected = injectHelper.injected(bundleIdentifier, url)
+        InjectionStateManager.shared.setInjected(
+            bundleId: bundleIdentifier,
+            injected: injected
+        )
         
         return AppInfo(
             name: name,
@@ -103,8 +108,8 @@ class AppScannerViewModel: ObservableObject {
             canInject: canInject,
             supportVersion: supportVersion ?? "",
             supportArch: supportArch ?? [],
-            source: source ?? "",
-            license: license ?? ""
+            source: source ?? ""
+//            license: license ?? ""
         )
     }
     
