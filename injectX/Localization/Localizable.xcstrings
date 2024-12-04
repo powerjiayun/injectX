@@ -71,6 +71,16 @@
         }
       }
     },
+    "Check for Updates…" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "检查更新"
+          }
+        }
+      }
+    },
     "Choose Injection Mode" : {
       "localizations" : {
         "zh-Hans" : {
@@ -97,6 +107,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "控制台输出"
+          }
+        }
+      }
+    },
+    "Contact me" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "联系我"
           }
         }
       }
@@ -187,6 +207,26 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "入侵模式"
+          }
+        }
+      }
+    },
+    "Join Channel" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "加入频道"
+          }
+        }
+      }
+    },
+    "Join group" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "加入群组"
           }
         }
       }

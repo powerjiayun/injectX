@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>injectX</title>
+        <item>
+            <title>1.0.0</title>
+            <pubDate>Wed, 04 Dec 2024 20:22:39 +0800</pubDate>
+            <sparkle:version>01</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description>
+                <![CDATA[
+                <ul>
+                    <li>Support for online updates;</li>
+                    <li>Optimized some functions and fixed known bugs.</li>
+                </ul>
+                ]]>
+            </description>
+            <enclosure url="https://raw.githubusercontent.com/inject-X/injectX/refs/heads/main/injectX.zip" length="1996620" type="application/octet-stream" sparkle:edSignature="prtFcUAL2TQd8jnfhJpgT+n9HZ6i+GKimYm6mriTdsVl6Jtgn86k+zmVqRLHDwKLk8uqK9kYkKM+v61C5H5ECQ=="/>
+        </item>
+    </channel>
+</rss>

@@ -43,15 +43,44 @@ struct AppHomePageView: View {
                 
                 Spacer()
                 
-                // Add GitHub link as text
-                Link("GitHub", destination: URL(string: "https://github.com/inject-X")!)
-                    .font(.system(size: 16, weight: .medium))
-                    .foregroundColor(titleColor())
-                    .padding(10)
-                    .background(
-                        RoundedRectangle(cornerRadius: 10, style: .continuous)
-                            .fill(Color.secondary.opacity(0.2))
-                    )
+                // 将所有链接改为单行横向排列
+                HStack(spacing: 20) {
+                    Link("GitHub", destination: URL(string: "https://github.com/inject-X")!)
+                        .font(.system(size: 16, weight: .medium))
+                        .foregroundColor(titleColor())
+                        .padding(10)
+                        .background(
+                            RoundedRectangle(cornerRadius: 10, style: .continuous)
+                                .fill(Color.secondary.opacity(0.2))
+                        )
+                    
+                    Link("Contact me", destination: URL(string: "https://t.me/BliZzardya")!)
+                        .font(.system(size: 16, weight: .medium))
+                        .foregroundColor(titleColor())
+                        .padding(10)
+                        .background(
+                            RoundedRectangle(cornerRadius: 10, style: .continuous)
+                                .fill(Color.secondary.opacity(0.2))
+                        )
+                    
+                    Link("Join Channel", destination: URL(string: "https://t.me/inject_x")!)
+                        .font(.system(size: 16, weight: .medium))
+                        .foregroundColor(titleColor())
+                        .padding(10)
+                        .background(
+                            RoundedRectangle(cornerRadius: 10, style: .continuous)
+                                .fill(Color.secondary.opacity(0.2))
+                        )
+                    
+                    Link("Join group", destination: URL(string: "https://t.me/injectx_group")!)
+                        .font(.system(size: 16, weight: .medium))
+                        .foregroundColor(titleColor())
+                        .padding(10)
+                        .background(
+                            RoundedRectangle(cornerRadius: 10, style: .continuous)
+                                .fill(Color.secondary.opacity(0.2))
+                        )
+                }
             }
             .padding(.horizontal, 40)
             .padding(.vertical, 80)
