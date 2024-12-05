@@ -4,19 +4,25 @@
         <title>injectX</title>
         <item>
             <title>1.0.0</title>
+            <pubDate>Thu, 05 Dec 2024 17:11:18 +0800</pubDate>
+            <sparkle:version>02</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Supports BoltGPT version 1.28.1;</li>
+                    <li>Supports the x86_64 architecture of BoltGPT.</li>
+                </ul>
+                ]]></description>
+            <enclosure url="https://github.com/inject-X/injectX/releases/latest/download/injectX.zip" length="3699283" type="application/octet-stream" sparkle:edSignature="wFlSOtQjBGEfyyTIMF2CtZGok27zSFDkTXokuC0DJBtPCdm2rE7dLG+OQY6eGgVFtA8ram/6gGHIGnkDZ3AEDQ=="/>
+        </item>
+        <item>
+            <title>1.0.0</title>
             <pubDate>Wed, 04 Dec 2024 20:22:39 +0800</pubDate>
             <sparkle:version>01</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description>
-                <![CDATA[
-                <ul>
-                    <li>Support for online updates;</li>
-                    <li>Optimized some functions and fixed known bugs.</li>
-                </ul>
-                ]]>
-            </description>
-            <enclosure url="https://raw.githubusercontent.com/inject-X/injectX/refs/heads/main/injectX.zip" length="1996620" type="application/octet-stream" sparkle:edSignature="prtFcUAL2TQd8jnfhJpgT+n9HZ6i+GKimYm6mriTdsVl6Jtgn86k+zmVqRLHDwKLk8uqK9kYkKM+v61C5H5ECQ=="/>
+            <enclosure url="https://github.com/inject-X/injectX/releases/latest/download/injectX.zip" length="3699280" type="application/octet-stream" sparkle:edSignature="wVOW3iBbcnt4WkmAu/x2zJcHtkQ8589K+GO8R0Dbw9OPXimEfZANQoxnwLbZnrrD6JRAvm8TWSjcEr58ulFqAQ=="/>
         </item>
     </channel>
 </rss>

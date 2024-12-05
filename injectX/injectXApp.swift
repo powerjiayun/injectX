@@ -50,8 +50,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // 配置自动更新
         let updater = updaterController.updater
         updater.automaticallyChecksForUpdates = true      // 启用自动检查更新
-        updater.automaticallyDownloadsUpdates = false     // 不自动下载更新
-        updater.updateCheckInterval = 3600                // 检查间隔设为1小时（3600秒）
+//        updater.automaticallyDownloadsUpdates = false     // 不自动下载更新
+        updater.updateCheckInterval = 3600              // 检查间隔设为1小时（3600秒）
     }
     
     func applicationDidFinishLaunching(_ notification: Notification) {
