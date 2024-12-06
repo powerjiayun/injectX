@@ -11,41 +11,15 @@ import SwiftUI
 
 class InjectHelper {
     
-    typealias Config = [String: [String: Any]]
     
     @StateObject private var logManager = LogManager.shared
     
     let passwordManager = PasswordManager()
-
-    
-    func getConfig() -> Config? {
-        guard let plistPath = Bundle.main.path(forResource: "config", ofType: "plist") else {
-            print("Error: Cannot find config.plist")
-            return nil
-        }
-        
-        guard let dict = NSDictionary(contentsOfFile: plistPath) as? Config else {
-            print("Error: Cannot read config.plist or invalid format")
-            return nil
-        }
-        
-        return dict
-    }
-    
-    func getAppConfig(_ bundleIdentifier: String) -> NSDictionary? {
-        guard let config = getConfig() as? NSDictionary,
-              let appConfig = config[bundleIdentifier] as? NSDictionary else {
-            print("Error: Cannot find app-specific config for bundle identifier \(bundleIdentifier)")
-            return nil
-        }
-        
-        return appConfig
-    }
-
     
     func canInject(_ bundleIdentifier: String, _ bundleShortVersion: String, _ bundleVersion: String) -> Bool {
-        guard let config = getConfig(),
-              let appConfig = config[bundleIdentifier],
+        
+        guard let config = ConfigManager.shared.getConfig(),
+              let appConfig = config[bundleIdentifier] as? NSDictionary,
               let supportBundleShortVersion = appConfig["bundleShortVersion"] as? String,
               let supportBundleVersion = appConfig["bundleVersion"] as? String,
               let supportedArchs = appConfig["arch"] as? [String] else {
@@ -75,8 +49,8 @@ class InjectHelper {
     
     func injected(_ bundleIdentifier: String,_ url: URL) -> Bool {
         
-        guard let config = getConfig(),
-              let appConfig = config[bundleIdentifier] else {
+        guard let config = ConfigManager.shared.getConfig(),
+              let appConfig = config[bundleIdentifier] as? NSDictionary else {
             return false
         }
         
@@ -179,8 +153,11 @@ class InjectHelper {
                 logManager.addLog("Password verification failed. Update your password to continue.", type: .error)
                 return
             }
-            
-            guard let appConfig = getAppConfig(app.bundleIdentifier) else {
+        
+        
+
+        
+            guard let appConfig = ConfigManager.shared.getAppConfig(app.bundleIdentifier) else {
                 logManager.addLog("App configuration not found.", type: .error)
                 return
             }

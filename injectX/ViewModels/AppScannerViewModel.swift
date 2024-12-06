@@ -82,8 +82,9 @@ class AppScannerViewModel: ObservableObject {
         
         let injectHelper = InjectHelper()
         
-        if let config = injectHelper.getConfig() {
-            if let appConfig = config[bundleIdentifier] {
+        
+        if let config = ConfigManager.shared.getConfig() {
+            if let appConfig = config[bundleIdentifier] as? NSDictionary {
                 canInject = injectHelper.canInject(bundleIdentifier, bundleShortVersion, bundleVersion)
                 supportVersion = ((appConfig["bundleShortVersion"] as? String) ?? "") + " (" + ((appConfig["bundleVersion"] as? String) ?? "") + ")"
                 supportArch = appConfig["arch"] as? [String]
