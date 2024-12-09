@@ -348,4 +348,13 @@ EA7E-8888888
                     licenseCode: Ke'd by InjectX-Team
                 </td>
             </tr>
+                <tr>
+                <td>Downie 4</td>
+                <td>ALL</td>
+                <td>arm64, x86_64</td>
+                <td>
+                    licenseEmail: injectxteam@gmail.com<br>
+                    licenseCode: AAAAAAAA-AAAAAAAA-AAAAAAAA-AAAAAAAA-AAAAAAAA
+                </td>
+            </tr>
     </table>
