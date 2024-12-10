@@ -366,4 +366,10 @@ EA7E-8888888
                     licenseCode: Ke'd by InjectX-Team
                 </td>
             </tr>
+             <tr>
+                <td>QuickPlanTrial</td>
+                <td>11.5</td>
+                <td>arm64</td>
+                <td>-</td>
+            </tr>
     </table>

@@ -4,6 +4,19 @@
         <title>injectX</title>
         <item>
             <title>1.0.0</title>
+            <pubDate>Tue, 10 Dec 2024 17:19:24 +0800</pubDate>
+            <sparkle:version>05</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Supports QuickPlanTrial.</li>
+                </ul>
+                ]]></description>
+            <enclosure url="https://github.com/inject-X/injectX/releases/latest/download/injectX.zip" length="3747267" type="application/octet-stream" sparkle:edSignature="0+CmgbXV/aDgJl3rJOTQGTMQ8lyyLZV9zDx9JYVoGhSbgPszB6QECLBMD1D4PfRznXatvmtMVWCL9HHAIFu2Ag=="/>
+        </item>
+        <item>
+            <title>1.0.0</title>
             <pubDate>Mon, 09 Dec 2024 15:02:16 +0800</pubDate>
             <sparkle:version>04</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
