@@ -7,13 +7,6 @@
     <a href="README.md">English</a> | <a href="README_zh-CN.md">简体中文</a>
     <br />
     <br />
-    <b>下载 </b>
-    <a href="https://github.com/inject-X/injectX/archive/refs/heads/main.zip">源码</a>
-    <br />
-     <b>支持应用</b>
-    <a href="AppList.md">应用列表</a>
-    <br />
-    <br />
     <img src="https://img.shields.io/github/stars/inject-X/injectX" alt="GitHub Stars" />
     <img src="https://img.shields.io/github/forks/inject-X/injectX" alt="GitHub Forks" />
     <img src="https://img.shields.io/github/contributors/inject-X/injectX" alt="Contributors" />
@@ -38,12 +31,21 @@ InjectX 是一款为 macOS 系统设计的应用程序注入工具，支持多�
 
 - macOS 13.0 (Ventura) 或更高版本
 
+## 📒 支持的应用程序
+
+📌 **重要:**  
+在使用注入之前，请查看 **[应用列表](AppList.md)** :  
+- 支持的应用程序
+- 授权信息
+- 使用说明
+
 ## 📋 快速使用
 
 1. 打开 InjectX 应用
 2. 验证注入支持
 3. 执行应用程序注入
 4. 启动已注入的应用
+5. 查看 **[应用列表](AppList.md)** 以获取每个应用的详细说明。
 
 ## 🖼 应用截图
 

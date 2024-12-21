@@ -7,13 +7,6 @@
     <a href="README.md">English</a> | <a href="README_zh-CN.md">简体中文</a>
     <br />
     <br />
-    <b>Download for </b>
-    <a href="https://github.com/inject-X/injectX/archive/refs/heads/main.zip">Source Code</a>
-    <br />
-     <b>Supported Application List</b>
-    <a href="AppList.md">App List</a>
-    <br />
-    <br />
     <img src="https://img.shields.io/github/stars/inject-X/injectX" alt="GitHub Stars" />
     <img src="https://img.shields.io/github/forks/inject-X/injectX" alt="GitHub Forks" />
     <img src="https://img.shields.io/github/contributors/inject-X/injectX" alt="Contributors" />
@@ -39,12 +32,22 @@ InjectX is an application injection tool designed for macOS, supporting multiple
 
 - macOS 13.0 (Ventura) or higher
 
+## 📒 Supported Apps
+
+📌 **Important:**  
+Before using InjectX, check the **[App List](AppList.md)** for:
+- Supported applications
+- Licensing information
+- Instructions for Use
+
 ## 📋 Quick Usage
 
-1. Open the InjectX application
-2. Verify injection support
-3. Execute application injection
-4. Launch the injected application
+1. Open the InjectX application.
+2. Verify injection support.
+3. Execute application injection.
+4. Launch the injected application.
+5. See **[App List](AppList.md)** for specific instructions on each app.
+
 
 ## 🖼 Application Screenshots
 
@@ -65,8 +68,6 @@ Thanks to the following projects:
 ## 📜 License
 
 See [LICENSE.md](LICENSE)
-
----
 
 <div align="center">
   <sub>💖 Found it helpful? Please give us a star! ⭐</sub>
