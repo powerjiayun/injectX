@@ -4,6 +4,19 @@
         <title>injectX</title>
         <item>
             <title>1.0.0</title>
+            <pubDate>Sun, 22 Dec 2024 15:31:33 +0800</pubDate>
+            <sparkle:version>07</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Fix Picview and Longshot.</li>
+                </ul>
+                ]]></description>
+            <enclosure url="https://github.com/inject-X/injectX/releases/latest/download/injectX.zip" length="3747380" type="application/octet-stream" sparkle:edSignature="v1QE0xtlBDOzfeniOomXiqmHRqh8quyy7T09Nfg6DUkpQPrRaUVz2FkrIV6ke9CttCacs2Jyoqd5JkyrDKpcAw=="/>
+        </item>
+        <item>
+            <title>1.0.0</title>
             <pubDate>Sun, 22 Dec 2024 01:40:56 +0800</pubDate>
             <sparkle:version>06</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
