@@ -4,6 +4,19 @@
         <title>injectX</title>
         <item>
             <title>1.0.0</title>
+            <pubDate>Mon, 23 Dec 2024 14:00:32 +0800</pubDate>
+            <sparkle:version>08</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Fixing the injection for APTV version 1.3.9.</li>
+                </ul>
+                ]]></description>
+            <enclosure url="https://github.com/inject-X/injectX/releases/latest/download/injectX.zip" length="3747377" type="application/octet-stream" sparkle:edSignature="sYxBEaJPDun4kSba3gaTadghSg1PrpHLwtFyEHfuwuMFo+6rNl2VA/v30z4kJJLVbnVOnkpY4+iXMQutMsqEAA=="/>
+        </item>
+        <item>
+            <title>1.0.0</title>
             <pubDate>Sun, 22 Dec 2024 15:31:33 +0800</pubDate>
             <sparkle:version>07</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
