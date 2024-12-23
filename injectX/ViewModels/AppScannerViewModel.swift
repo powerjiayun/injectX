@@ -117,6 +117,7 @@ class AppScannerViewModel: ObservableObject {
     }
     
     private func getLocalizedName(for bundle: Bundle) -> String {
+        // 首先尝试获取本地化名称
         let preferredLanguages = Bundle.main.preferredLocalizations
         
         for language in preferredLanguages {
@@ -128,8 +129,8 @@ class AppScannerViewModel: ObservableObject {
             }
         }
         
-        if let infoPlistPath = bundle.url(forResource: "Info", withExtension: "plist"),
-           let infoDictionary = NSDictionary(contentsOf: infoPlistPath) as? [String: Any] {
+        // 如果没有找到本地化名称,使用 infoDictionary 获取默认名称
+        if let infoDictionary = bundle.infoDictionary {
             if let displayName = infoDictionary["CFBundleDisplayName"] as? String {
                 return displayName
             } else if let bundleName = infoDictionary["CFBundleName"] as? String {
@@ -137,6 +138,7 @@ class AppScannerViewModel: ObservableObject {
             }
         }
         
+        // 如果都没有找到,返回 fallback 名称
         let fallbackName = bundle.bundleURL.deletingPathExtension().lastPathComponent
         return fallbackName
     }

@@ -2,6 +2,19 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>injectX</title>
+         <item>
+            <title>1.0.0</title>
+            <pubDate>Mon, 23 Dec 2024 14:45:37 +0800</pubDate>
+            <sparkle:version>09</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Add all versions of Xnapper.</li>
+                </ul>
+                ]]></description>
+            <enclosure url="https://github.com/inject-X/injectX/releases/latest/download/injectX.zip" length="3746319" type="application/octet-stream" sparkle:edSignature="5rnbiKpeSDILTNt45IjTDoV+iiQP5LC1/IygsrKOP4Kyr9nFn9ZfLWlDaMyi/6mKfDT43ppj9GRlSODmxuagAQ=="/>
+        </item>
         <item>
             <title>1.0.0</title>
             <pubDate>Mon, 23 Dec 2024 14:00:32 +0800</pubDate>
@@ -10,7 +23,7 @@
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
                 <ul>
-                    <li>Fixing the injection for APTV version 1.3.9.</li>
+                    <li>Fixed the inject for APTV version 1.3.9.</li>
                 </ul>
                 ]]></description>
             <enclosure url="https://github.com/inject-X/injectX/releases/latest/download/injectX.zip" length="3747377" type="application/octet-stream" sparkle:edSignature="sYxBEaJPDun4kSba3gaTadghSg1PrpHLwtFyEHfuwuMFo+6rNl2VA/v30z4kJJLVbnVOnkpY4+iXMQutMsqEAA=="/>
@@ -23,7 +36,7 @@
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
                 <ul>
-                    <li>Fix Picview and Longshot.</li>
+                    <li>Fixed Picview and Longshot.</li>
                 </ul>
                 ]]></description>
             <enclosure url="https://github.com/inject-X/injectX/releases/latest/download/injectX.zip" length="3747380" type="application/octet-stream" sparkle:edSignature="v1QE0xtlBDOzfeniOomXiqmHRqh8quyy7T09Nfg6DUkpQPrRaUVz2FkrIV6ke9CttCacs2Jyoqd5JkyrDKpcAw=="/>
