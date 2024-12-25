@@ -2,6 +2,19 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>injectX</title>
+                <item>
+            <title>1.0.0</title>
+            <pubDate>Wed, 25 Dec 2024 12:36:04 +0800</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Add Nova(12.2).</li>
+                </ul>
+                ]]></description>
+            <enclosure url="https://github.com/inject-X/injectX/releases/latest/download/injectX.zip" length="3746820" type="application/octet-stream" sparkle:edSignature="WFIIHWL/w4o9vXyIZcru0+Xjt0pULoJ/oLZ4FbXBfZlwMrlXxqtEPKwZrk64R8Poq68ASQ4kLp5/36qD7T7WAQ=="/>
+        </item>
          <item>
             <title>1.0.0</title>
             <pubDate>Mon, 23 Dec 2024 14:45:37 +0800</pubDate>
