@@ -824,6 +824,20 @@
 		<key>injectFile</key>
 		<string>iRightMouse</string>
 	</dict>
+	<key>it.bloop.airmail2</key>
+	<dict>
+		<key>arch</key>
+		<array>
+			<string>arm64</string>
+			<string>x86_64</string>
+		</array>
+		<key>bundleShortVersion</key>
+		<string>ALL</string>
+		<key>bundleVersion</key>
+		<string>ALL</string>
+		<key>injectFile</key>
+		<string>Airmail</string>
+	</dict>
 	<key>li.zihua.medis2</key>
 	<dict>
 		<key>arch</key>
