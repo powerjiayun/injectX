@@ -252,11 +252,11 @@ class InjectHelper {
         
         if let injectFile = appConfig["injectFile"] as? String {
             _ = shell("""
-                sudo \(optool) install -c load -p "\(app.path)/Contents/MacOS/injectX.dylib" -t "\(app.path)/Contents/MacOS/\(injectFile)"
+                sudo \(optool) install -c load -p "\(app.path)/Contents/MacOS/injectX.dylib" -t "\(app.path)/Contents/\(injectFile)"
             """, isDebug)
             logManager.addLog("Main app injected successfully.", type: .success)
-            
-            _ = shell("sudo codesign -f -s - --timestamp=none --all-architectures --deep \"\(app.path)\"", isDebug)
+
+            _ = shell("sudo codesign -f -s - --timestamp=none --all-architectures --deep \"\(app.path)/Contents/\(injectFile)\"", isDebug)
             logManager.addLog("Main app codesigned successfully.", type: .success)
         } else {
             logManager.addLog("injectFile not found in app configuration.", type: .error)
