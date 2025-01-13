@@ -55,7 +55,7 @@ class InjectHelper {
         }
         
         if let injectFile = appConfig["injectFile"] {
-            let executablePath = url.appendingPathComponent("Contents/MacOS").appendingPathComponent(injectFile as! String).path
+            let executablePath = url.appendingPathComponent("Contents/").appendingPathComponent(injectFile as! String).path
             let result = InjectHelper.listSharedLibraries(forPath: executablePath)
             if result.contains("injectX.dylib") {
                 return true

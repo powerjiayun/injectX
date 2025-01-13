@@ -433,9 +433,9 @@
 			<string>x86_64</string>
 		</array>
 		<key>bundleShortVersion</key>
-		<string>ALL</string>
+		<string>1.2.1</string>
 		<key>bundleVersion</key>
-		<string>ALL</string>
+		<string>49</string>
 		<key>injectFile</key>
 		<string>MacOS/Alcove</string>
 	</dict>

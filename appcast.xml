@@ -4,6 +4,19 @@
         <title>injectX</title>
         <item>
             <title>1.0.0</title>
+            <pubDate>Mon, 13 Jan 2025 18:21:42 +0800</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Alcove 1.2.1 version is now supported.</li>
+                </ul>
+                ]]></description>
+            <enclosure url="https://github.com/inject-X/injectX/releases/latest/download/injectX.zip" length="3746896" type="application/octet-stream" sparkle:edSignature="2CnItpU4ekpyUbB5wSuiA0y1iE6yFJ2J0+Og7TV65hj44sDjoHhyBPFaxVi7zSSQAAi/dNDie2rJ3biQzdOhBw=="/>
+        </item>
+        <item>
+            <title>1.0.0</title>
             <pubDate>Wed, 08 Jan 2025 10:14:34 +0800</pubDate>
             <sparkle:version>13</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
