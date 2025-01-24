@@ -250,6 +250,9 @@ class InjectHelper {
             }
         }
         
+        _ = shell("sudo xattr -rd com.apple.quarantine \"\(app.path)\"", isDebug)
+        logManager.addLog("Removed app quarantine attributes.", type: .success)
+        
         if let injectFile = appConfig["injectFile"] as? String {
             _ = shell("""
                 sudo \(optool) install -c load -p "\(app.path)/Contents/MacOS/injectX.dylib" -t "\(app.path)/Contents/\(injectFile)"
@@ -262,8 +265,6 @@ class InjectHelper {
             logManager.addLog("injectFile not found in app configuration.", type: .error)
         }
         
-        _ = shell("sudo xattr -rd com.apple.quarantine \"\(app.path)\"", isDebug)
-        logManager.addLog("Removed app quarantine attributes.", type: .success)
         logManager.addLog("App injection completed.", type: .success)
         
         

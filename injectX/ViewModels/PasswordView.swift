@@ -73,15 +73,17 @@ struct PasswordView: View {
             Button(action: handleSubmit) {
                 Group {
                     if isLoading {
-                        ProgressView().scaleEffect(0.8)
+                        ProgressView()
+                            .scaleEffect(0.8)
+                            .frame(width: 80, height: 16)
                     } else {
                         HStack(spacing: 4) {
                             Image(systemName: "lock.open")
                             Text("Unlock")
                         }
+                        .frame(width: 80)
                     }
                 }
-                .frame(width: 80)
             }
             .buttonStyle(PrimaryButtonStyle())
             .disabled(password.isEmpty || isLoading)

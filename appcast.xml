@@ -4,6 +4,20 @@
         <title>injectX</title>
         <item>
             <title>1.0.0</title>
+            <pubDate>Fri, 24 Jan 2025 17:24:34 +0800</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Possible fix for x86_64 Alcove.</li>
+                    <li>Fix iCloud issues in Downie 4.</li>
+                </ul>
+                ]]></description>
+            <enclosure url="https://github.com/inject-X/injectX/releases/latest/download/injectX.zip" length="3746913" type="application/octet-stream" sparkle:edSignature="CUWf4QpA3g1bn4I+8Q2u5QQmBnIjhilwhaErfX5wK3KJ146wQHKeX8/k4b10c0Zq6tuUWUWcn6SjflrRA6IMAw=="/>
+        </item>
+        <item>
+            <title>1.0.0</title>
             <pubDate>Mon, 13 Jan 2025 18:21:42 +0800</pubDate>
             <sparkle:version>14</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
